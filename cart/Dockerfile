@@ -1,4 +1,4 @@
-FROM node:20.8.1
+FROM node:20.14
 
 ENV INSTANA_AUTO_PROFILE true
 
