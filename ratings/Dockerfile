@@ -1,7 +1,7 @@
 #
 # Build the app
 #
-FROM php:latest
+FROM php:8.5.3RC1-trixie
 
 RUN apt-get update && apt-get install -yqq unzip libzip-dev \
     && docker-php-ext-install pdo_mysql opcache zip
